@@ -12,7 +12,8 @@
     "php": "^7.0",
     "zendframework/zend-component-installer": "^0.1.0",
     "zendframework/zend-config": "^2.6",
-    "zendframework/zend-mvc": "^3.0.0@dev"
+    "zendframework/zend-mvc": "^3.0.0@dev",
+    "phpunit/phpunit": "^5.3"
   },
   "autoload": {
     "psr-4": {
