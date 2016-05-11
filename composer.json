@@ -1,0 +1,31 @@
+{
+  "name": "geeh/zf3",
+  "description": "ZF3 Opinionated Skeleton",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gary Hockin",
+      "email": "gary@hock.in"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "zendframework/zend-component-installer": "^0.1.0",
+    "zendframework/zend-config": "^2.6",
+    "zendframework/zend-mvc": "^3.0.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Application\\": "Application/src/",
+      "Skeletor\\": "module/Skeletor/src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SkeletorTestAsset\\": "module/Skeletor/test/Asset"
+    }
+  },
+  "scripts": {
+    "serve": "php -S 0.0.0.0:8080 -t public/ public/index.php"
+  }
+}
